@@ -8,7 +8,7 @@
     --bg-color: #f4f7f6; /* απαλό γκρι για φόντο σελίδας */
     --card-bg: #ffffff; /* λευκό για τα κουτιά */
     --primary-color: #00adb5; /* tech vibe */
-    --text-darkk: #222831; /* μαύρο για τίτλους */
+    --text-dark: #222831; /* μαύρο για τίτλους */
     --text-grey: #e0e0e0; /* γκρι για κείμενα */
     --code-bg: #e0e0e0; /* Φόντο για τα skills */
 
@@ -34,7 +34,6 @@ body {
 }
 
 .title {
-    background-color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -132,8 +131,7 @@ main {
 
 .tech-skills .value{
     font-family: 'Fira Code', monospace;
-    /* font-size: 0.95rem; */
-    color: var(--text-darkk);
+    color: var(--text-dark);
 }
 
 .tech-skills strong {
@@ -179,6 +177,8 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 10px;
+    background-color: var(--text-dark);
+    color: #ffffff;
 }
 
 .footer-content p {
