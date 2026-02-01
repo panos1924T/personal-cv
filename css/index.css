@@ -74,7 +74,7 @@ body {
 
 /* MAIN */
 
-.education .work-history .tech-skills .add-info {
+.education, .work-history, .tech-skills, .add-info {
     background-color: var(--card-bg);
     border-radius: var(--border-radius-card);
     box-shadow: var(--shadow);
@@ -129,6 +129,18 @@ main {
 }
 
 /* RIGHT COLUMN CONTENT */
+
+.tech-skills .value{
+    font-family: 'Fira Code', monospace;
+    /* font-size: 0.95rem; */
+    color: var(--text-darkk);
+}
+
+.tech-skills strong {
+    background-color: var(--code-bg);
+    border-radius: 5px;
+}
+
 .tech-skills h3 {
     margin-bottom: 15px;
     border-bottom: 2px solid black;
