@@ -105,6 +105,7 @@ main {
     overflow: hidden;
     gap: 10px;
     background-color: transparent;
+
 }
 
 .scrollbar div {
@@ -127,13 +128,13 @@ main {
 }
 
 .job-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--text-dark);
     margin-bottom: 3px;
 }
 
 .job-meta {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--text-grey);
     margin-bottom: 10px;
 }
@@ -143,7 +144,7 @@ main {
 }
 
 .timeline-list li {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     margin-bottom: 6px;
     line-height: 1.5;
 }
