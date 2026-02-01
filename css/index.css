@@ -278,9 +278,14 @@ footer {
         height: auto; 
     }
 
+    .scrollbar {
+        display: block;
+        height: auto;
+    }
+
     .scrollbar div {
         overflow-y: visible;
         height: auto; 
-        display: block;
+        margin-bottom: 20px;
     }
 }
