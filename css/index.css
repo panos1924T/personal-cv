@@ -9,7 +9,7 @@
     --card-bg: #ffffff; /* λευκό για τα κουτιά */
     --primary-color: #00adb5; /* tech vibe */
     --text-dark: #222831; /* μαύρο για τίτλους */
-    --text-grey: #e0e0e0; /* γκρι για κείμενα */
+    --text-grey: #4a5568; /* γκρι για κείμενα */
     --code-bg: #e0e0e0; /* Φόντο για τα skills */
 
     --border-radius-card: 12px; /* Στρογγυλεμένες γωνίες για τα κουτιά */
@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: cyan;
+    color: var(--text-dark);
 }
 
 .title h2 {
@@ -63,6 +63,7 @@ body {
     font-size: 40px;
     margin-top: 30px;
     margin-left: 15px;
+    color: var(--text-dark);
 }
 
 .info-links i:hover {
@@ -104,9 +105,43 @@ main {
     min-height: 0;
 }
 
-.education {
-    margin-top: 10px;
+.section-title {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--text-grey);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
+
+.timeline-item {
+    margin-bottom: 25px;
+}
+
+.job-title {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 3px;
+}
+
+.job-meta {
+    font-size: 0.9rem;
+    color: var(--text-grey);
+    margin-bottom: 10px;
+}
+
+.timeline-list {
+    padding-left: 20px;
+}
+
+.timeline-list li {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+
+
 
 .work-history {
     
