@@ -4,15 +4,46 @@
     padding: 0;
 }
 
+body {
+    background-color: blanchedalmond;
+}
+
 .container {
     display: grid;
-
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+    
+    height: 130px;
 }
 
 .title {
-    grid-template-columns: 30%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: cyan;
+}
+
+.title h2 {
+    margin-top: 15px;
 }
 
 .personal-info {
-    grid-template-columns: 70%;
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-links i {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.info-links i:hover {
+    font-size: 50px;
+    color: #333;
 }
