@@ -15,7 +15,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 10px;
-    
     height: 130px;
 }
 
@@ -38,6 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .info-links i {
@@ -54,6 +54,7 @@ body {
 
 /* MAIN */
 
+/* LEFT-COLUMN */
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -67,22 +68,47 @@ main {
     grid-template-rows: 1fr 1fr;
     height: 100%;
     overflow: hidden;
+    gap: 10px;
 }
 
 .scrollbar div {
     overflow-y: auto;
     padding: 20px;
+    min-height: 0;
 }
 
 .education {
     background-color: yellowgreen;
+    margin-top: 10px;
 }
 
 .work-history {
     background-color: yellow;
 }
 
+/* RIGHT COLUMN */
+.technical {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 2fr 1fr;
+}
 
+.tech-skills {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.add-info {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* MEDIA */
 
 @media (max-width: 768px) {
     
