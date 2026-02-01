@@ -281,5 +281,6 @@ footer {
     .scrollbar div {
         overflow-y: visible;
         height: auto; 
+        display: block;
     }
 }
