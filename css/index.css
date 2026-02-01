@@ -62,6 +62,27 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+.contact-link {
+    text-decoration: none;
+    color: var(--text-dark);
+    margin: 0 5px;
+}
+
+.contact-link:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.contact-link i {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.separator {
+    color: #ccc;
+    margin: 0 5px;
+}
+
 .info-links i {
     font-size: 40px;
     margin-top: 30px;
