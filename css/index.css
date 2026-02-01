@@ -39,6 +39,9 @@ body {
     flex-direction: column;
     justify-content: center;
     color: var(--text-dark);
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    letter-spacing: -1px;
 }
 
 .title h2 {
@@ -63,14 +66,19 @@ body {
     font-size: 40px;
     margin-top: 30px;
     margin-left: 15px;
-    color: var(--text-dark);
 }
 
 .info-links i:hover {
-    font-size: 45px;
+    transform: scale(1.2);
+}
+
+.fa-square-github {
     color: #333;
 }
 
+.fa-linkedin {
+    color: #0077b5;
+}
 
 /* MAIN */
 
